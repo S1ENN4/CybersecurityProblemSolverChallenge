@@ -113,25 +113,3 @@ python anomaly_detection.py
 
 3. **Mitigation**:
    - High-confidence anomalies were flagged and added to a blocking policy, simulating an AWS WAF rule for IP blocking.
-
----
-
-## Enhancements
-
-### 1. **Feature Engineering**
-   - Add more features such as geo-location of IPs and request types for deeper analysis.
-
-### 2. **Real-Time Processing**
-   - Extend the pipeline to process logs dynamically using Kafka or AWS S3 integration.
-
-### 3. **AI and Predictive Modeling**
-   - Train advanced models to predict attacks before they occur based on historical patterns.
-
-### 4. **Policy Simulation**
-   - Integrate with cloud-native tools (e.g., AWS WAF, Azure Sentinel) to automate IP blocking.
-
----
-
-## Conclusion
-
-This project demonstrates the effective application of data analysis, machine learning, and visualization to detect and mitigate security risks. By automating log analysis and producing actionable insights, it provides a solid foundation for real-world cybersecurity applications.
