@@ -2,7 +2,7 @@
 # Cybersecurity Problem Solver Challenge
 
 ## Introduction
-First and foremost, I would like to express my gratitude for the opportunity to join this team. Working on this project has been an exciting challenge that kept me engaged even beyond the initial analysis. After completing the required tasks, I decided to take the project a step further by implementing a more robust solution. As a result, the work is divided into two segments: Part 1, which addresses the original requirements of the challenge, and Part 2, which focuses on scalability and future-proofing, as detailed in this README.
+First and foremost, I would like to express my gratitude for the opportunity to ty to join this team. Working on this project has been an exciting challenge that kept me engaged even beyond the initial analysis. After completing the required tasks, I decided to take the project a step further by implementing a more robust solution. As a result, the work is divided into two segments: Part 1, which addresses the original requirements of the challenge, and Part 2, which focuses on scalability and future-proofing, as detailed in this README.
 
 This project is a cybersecurity challenge aimed at detecting and analyzing anomalies in network traffic data. Its objective is to leverage machine learning and data visualization techniques to identify potential security risks, propose mitigation strategies, and communicate findings effectively through clear visualizations and comprehensive documentation.
 
@@ -21,8 +21,6 @@ The main objectives of the project include:
 
 ---
 # Part 1
-
-The part one is basically what was asked, with knowledge on Data analysis and cybersecurity i started by analysing the logs provided, at first impression i thought it would be simple since some discrepencys were easly checkec, but with time a saw opportunity to build something more robust
 
 ## Introduction
 
