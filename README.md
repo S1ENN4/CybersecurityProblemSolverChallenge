@@ -117,6 +117,7 @@ if __name__ == "__main__":
    - Activities during non-business hours.
 
 2. **Mitigation Suggestions**:
+   - Automatic Blocking: If an IP's confidence score reaches or exceeds a threshold of 70, it is automatically added to the blocking policy.
    - Block IPs exhibiting consistent anomalous behavior.
    - Rate-limit requests from flagged IPs.
    - Notify security teams for manual investigation.
