@@ -1,8 +1,14 @@
+import os
 import pandas as pd
-from sklearn.ensemble import IsolationForest
-from influxdb_client import InfluxDBClient, Point, WriteOptions
 import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.ensemble import IsolationForest
 
+# Ensure logs and graphs folders exist
+LOGS_FOLDER = 'logs'
+GRAPHS_FOLDER = 'graphs'
+os.makedirs(LOGS_FOLDER, exist_ok=True)
+os.makedirs(GRAPHS_FOLDER, exist_ok=True)
 
 def load_data(file_path):
     """Load and preprocess the data."""
@@ -12,7 +18,6 @@ def load_data(file_path):
         return data
     except Exception as e:
         raise ValueError(f"Error loading data: {e}")
-
 
 def feature_engineering(data):
     """Create and aggregate features for anomaly detection."""
@@ -27,7 +32,6 @@ def feature_engineering(data):
     }).reset_index()
     return features
 
-
 def detect_anomalies(features, contamination=0.05):
     """Train the Isolation Forest model and predict anomalies."""
     model = IsolationForest(contamination=contamination, random_state=42)
@@ -35,7 +39,6 @@ def detect_anomalies(features, contamination=0.05):
     features['Anomaly'] = model.fit_predict(features[feature_columns])
     features['Anomaly'] = features['Anomaly'].map({1: 'Normal', -1: 'Anomaly'})
     return features
-
 
 def calculate_confidence_score(row, features):
     """Calculate the confidence score for anomalies."""
@@ -47,7 +50,6 @@ def calculate_confidence_score(row, features):
     if row['Hour'] < 6 or row['Hour'] > 22:
         score += 20
     return min(score, 100)
-
 
 def assign_anomaly_reasons(anomalous_ips, features):
     """Assign reasons for each detected anomaly."""
@@ -64,73 +66,73 @@ def assign_anomaly_reasons(anomalous_ips, features):
     anomalous_ips['Reason'] = reasons_list
     return anomalous_ips
 
-
-def block_ip_aws_waf(ip):
-    """Simulate blocking IP in AWS WAF."""
-    try:
-        print(f"Simulating AWS WAF block for IP: {ip}")
-    except Exception as e:
-        print(f"Error blocking IP {ip}: {e}")
-
-
 def visualize_anomalies(features):
-    """Improved visualization of anomalies."""
+    """Visualize anomalies."""
     plt.figure(figsize=(12, 8))
-    
-    # Separate normal and anomalous data
     normal_data = features[features['Anomaly'] == 'Normal']
     anomalous_data = features[features['Anomaly'] == 'Anomaly']
-    
+
     # Scatter plot for normal and anomalous points
     plt.scatter(normal_data['RequestCountByIP'], normal_data['AverageBytesByIP'], 
                 c='blue', label='Normal', alpha=0.6)
     plt.scatter(anomalous_data['RequestCountByIP'], anomalous_data['AverageBytesByIP'], 
                 c='red', label='Anomaly', alpha=0.8, edgecolor='black')
-    
-    # Logarithmic scale if needed
     plt.yscale('log')
     plt.xscale('log')
-    
-    # Adding labels, title, and legend
     plt.xlabel('Request Count by IP (Log Scale)', fontsize=12)
     plt.ylabel('Average Bytes by IP (Log Scale)', fontsize=12)
-    plt.title('Enhanced Anomaly Detection in Network Traffic', fontsize=15)
+    plt.title('Anomaly Detection in Network Traffic', fontsize=15)
     plt.legend(fontsize=12)
-    
-    # Annotate top anomalies for clarity
-    top_anomalies = anomalous_data.nlargest(3, 'AverageBytesByIP')
-    for _, row in top_anomalies.iterrows():
-        plt.annotate(row['ClientIP'], (row['RequestCountByIP'], row['AverageBytesByIP']),
-                     textcoords="offset points", xytext=(10, 10), ha='center', fontsize=10, color='black')
-    
-    # Save and show plot
-    plt.savefig('enhanced_anomaly_visualization.png')
+    plt.savefig(os.path.join(GRAPHS_FOLDER, 'anomaly_visualization.png'))
     plt.show()
 
+def plot_time_series(data):
+    """Plot traffic volume over time."""
+    traffic_over_time = data.groupby(data['EdgeStartTimestamp'].dt.hour)['ClientRequestBytes'].sum()
+    plt.figure(figsize=(12, 6))
+    traffic_over_time.plot(kind='line', marker='o', color='blue')
+    plt.title('Traffic Volume Over Time (Hourly)', fontsize=15)
+    plt.xlabel('Hour of Day', fontsize=12)
+    plt.ylabel('Total Request Bytes', fontsize=12)
+    plt.grid(True)
+    plt.savefig(os.path.join(GRAPHS_FOLDER, 'traffic_volume_over_time.png'))
+    plt.show()
 
-def send_to_influxdb(anomalous_ips, influx_bucket, influx_org, influx_token, influx_url):
-    """Send data to InfluxDB."""
-    try:
-        client = InfluxDBClient(url=influx_url, token=influx_token, org=influx_org)
-        # Correctly initialize the write API
-        write_api = client.write_api(write_options=WriteOptions(batch_size=1, flush_interval=10))
+def plot_top_ips(data, top_n=10):
+    """Plot top N IPs by total data transfer."""
+    top_ips = data.groupby('ClientIP')['ClientRequestBytes'].sum().nlargest(top_n)
+    plt.figure(figsize=(12, 6))
+    top_ips.plot(kind='bar', color='orange')
+    plt.title(f'Top {top_n} IPs by Total Data Transfer', fontsize=15)
+    plt.xlabel('Client IP', fontsize=12)
+    plt.ylabel('Total Request Bytes', fontsize=12)
+    plt.xticks(rotation=45)
+    plt.grid(True, axis='y')
+    plt.savefig(os.path.join(GRAPHS_FOLDER, 'top_ips_by_data_transfer.png'))
+    plt.show()
 
-        for _, row in anomalous_ips.iterrows():
-            point = Point("anomaly_detection") \
-                .tag("ClientIP", row["ClientIP"]) \
-                .field("ConfidenceScore", row["ConfidenceScore"]) \
-                .field("RequestCountByIP", row["RequestCountByIP"]) \
-                .field("AverageBytesByIP", row["AverageBytesByIP"]) \
-                .field("Hour", row["Hour"]) \
-                .field("Reason", row["Reason"]) \
-                .time(pd.Timestamp.now().isoformat())
-            write_api.write(bucket=influx_bucket, record=point)
+def plot_anomaly_reasons(anomalies):
+    """Plot a pie chart of anomaly reasons."""
+    reason_counts = anomalies['Reason'].value_counts()
+    plt.figure(figsize=(8, 8))
+    reason_counts.plot(kind='pie', autopct='%1.1f%%', startangle=140, colormap='viridis')
+    plt.title('Breakdown of Anomaly Reasons', fontsize=15)
+    plt.ylabel('')
+    plt.savefig(os.path.join(GRAPHS_FOLDER, 'anomaly_reasons_breakdown.png'))
+    plt.show()
 
-        print("Data successfully written to InfluxDB.")
-        client.close()
-    except Exception as e:
-        print(f"Error writing to InfluxDB: {e}")
-
+def plot_anomaly_heatmap(anomalies):
+    """Plot a heatmap of anomalies by hour."""
+    anomalies['Hour'] = anomalies['Hour'].astype(int)
+    heatmap_data = anomalies.groupby('Hour')['ClientIP'].count().reset_index()
+    heatmap_data = heatmap_data.pivot_table(index='Hour', values='ClientIP', aggfunc='sum')
+    plt.figure(figsize=(10, 8))
+    sns.heatmap(heatmap_data, cmap='coolwarm', annot=True, fmt='g')
+    plt.title('Hourly Anomalies Heatmap', fontsize=15)
+    plt.xlabel('Hour of Day', fontsize=12)
+    plt.ylabel('Frequency of Anomalies', fontsize=12)
+    plt.savefig(os.path.join(GRAPHS_FOLDER, 'hourly_anomaly_heatmap.png'))
+    plt.show()
 
 # Main Execution
 if __name__ == "__main__":
@@ -150,27 +152,15 @@ if __name__ == "__main__":
     )
     anomalous_ips = assign_anomaly_reasons(anomalous_ips, features)
     
-    # Apply blocking policy
-    BLOCK_THRESHOLD = 70
-    blocked_ips = anomalous_ips[anomalous_ips['ConfidenceScore'] >= BLOCK_THRESHOLD]
-    
-    # Simulate blocking in AWS WAF
-    for ip in blocked_ips['ClientIP']:
-        block_ip_aws_waf(ip)
-    
-    # Send data to InfluxDB
-    influx_bucket = "network_monitoring"
-    influx_org = "DataAnalysis"
-    influx_token = "mASZ6S1GGvomci8iPeD9r8SSnRncxWhlNIagiZT39Ei--Xmc_V-1RCmo409VtUOABqDLw4LgCobuDJlNiSf6Kw=="
-    influx_url = "http://localhost:8086"
-    send_to_influxdb(anomalous_ips, influx_bucket, influx_org, influx_token, influx_url)
-    
-    # Save results
-    features.to_csv('features_with_anomalies.csv', index=False)
-    anomalous_ips.to_csv('anomalous_ips_with_scores.csv', index=False)
-    blocked_ips.to_csv('blocked_ips.csv', index=False)
+    # Save results in logs folder
+    features.to_csv(os.path.join(LOGS_FOLDER, 'features_with_anomalies.csv'), index=False)
+    anomalous_ips.to_csv(os.path.join(LOGS_FOLDER, 'anomalous_ips_with_scores.csv'), index=False)
     
     # Visualize results
     visualize_anomalies(features)
-    
-    print("Anomaly detection completed. Results saved to CSV files.")
+    plot_time_series(data)
+    plot_top_ips(data)
+    plot_anomaly_reasons(anomalous_ips)
+    plot_anomaly_heatmap(anomalous_ips)
+
+    print(f"Anomaly detection completed. Results saved to the '{LOGS_FOLDER}' and visualizations to the '{GRAPHS_FOLDER}' folder.")
