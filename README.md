@@ -2,7 +2,8 @@
 # Cybersecurity Problem Solver Challenge
 
 ## Introduction
-First and foremost, I would like to express my gratitude for the opportunity to ty to join this team. Working on this project has been an exciting challenge that kept me engaged even beyond the initial analysis. After completing the required tasks, I decided to take the project a step further by implementing a more robust solution. As a result, the work is divided into two segments: Part 1, which addresses the original requirements of the challenge, and Part 2, which focuses on scalability and future-proofing, as detailed in this README.
+
+First and foremost, I would like to express my gratitude for the opportunity to join this team. Working on this project has been an exciting challenge that kept me engaged even beyond the initial analysis. After completing the required tasks, I decided to take the project a step further by implementing a more robust solution. As a result, the work is divided into two segments: Part 1, which addresses the original requirements of the challenge, and Part 2, which focuses on scalability and future-proofing, as detailed in this README.
 
 This project is a cybersecurity challenge aimed at detecting and analyzing anomalies in network traffic data. Its objective is to leverage machine learning and data visualization techniques to identify potential security risks, propose mitigation strategies, and communicate findings effectively through clear visualizations and comprehensive documentation.
 
@@ -17,12 +18,13 @@ The main objectives of the project include:
 3. **Visualization**: Create visual tools for better understanding traffic patterns and anomalies.
 4. **Automation**: Build a robust pipeline to process network logs and generate insights dynamically.
 5. **Mitigation**: Simulate security policies to mitigate risks, such as blocking malicious IPs.
-6. **Scalability**:
+6. **Scalability**: Ensure the solution is scalable to handle dynamic and large datasets.
 
 ---
-# Part 1
 
-## Introduction
+## Part 1: Core Solution
+
+### Introduction
 
 This project tackles the challenge of identifying anomalies within network traffic data, a critical task in cybersecurity. Initially, the task seemed straightforward due to visible discrepancies in the data. However, further exploration revealed an opportunity to design a robust, scalable solution.
 
@@ -33,7 +35,7 @@ Leveraging Python and machine learning techniques, the project includes:
 3. **Risk Mitigation**: Providing actionable insights and reasoning for detected anomalies.
 4. **Visualization**: Detailed graphs to highlight anomalies, trends, and insights from the network data.
 
-## Objective
+### Objective
 
 This solution is part of a cybersecurity assessment to evaluate data analysis capabilities, logical reasoning, and the development of a mitigation policy to address security risks. It fulfills the following requirements:
 - Analyzing network traffic to identify patterns and threats.
@@ -46,10 +48,7 @@ By integrating machine learning with thoughtful analysis, this project aims to g
 
 ## Code Explanation
 
-This script is a complete pipeline for detecting and visualizing anomalies in network traffic data using machine learning and data analysis techniques.
-
 ### 1. Folder Initialization
-
 Ensures that folders for saving logs and graphs exist, providing a structured way to store results and visualizations:
 ```python
 LOGS_FOLDER = 'logs'
@@ -59,7 +58,6 @@ os.makedirs(GRAPHS_FOLDER, exist_ok=True)
 ```
 
 ### 2. Loading Data
-
 Loads the dataset and preprocesses timestamps for time-based feature extraction:
 ```python
 def load_data(file_path):
@@ -67,7 +65,6 @@ def load_data(file_path):
 ```
 
 ### 3. Feature Engineering
-
 Aggregates raw network data to create meaningful features like request count, average data transferred, and active hours:
 ```python
 def feature_engineering(data):
@@ -75,7 +72,6 @@ def feature_engineering(data):
 ```
 
 ### 4. Anomaly Detection
-
 Uses the Isolation Forest model to detect anomalies:
 ```python
 def detect_anomalies(features, contamination=0.05):
@@ -84,7 +80,6 @@ def detect_anomalies(features, contamination=0.05):
 - **Why Isolation Forest?**: It isolates anomalies by random partitioning and is effective for high-dimensional and unsupervised tasks.
 
 ### 5. Confidence Scoring
-
 Assigns confidence scores to anomalies based on severity indicators like high request count, data transfer, and off-hour activity:
 ```python
 def calculate_confidence_score(row, features):
@@ -92,7 +87,6 @@ def calculate_confidence_score(row, features):
 ```
 
 ### 6. Assigning Anomaly Reasons
-
 Explains why specific behaviors were flagged as anomalous:
 ```python
 def assign_anomaly_reasons(anomalous_ips, features):
@@ -100,7 +94,6 @@ def assign_anomaly_reasons(anomalous_ips, features):
 ```
 
 ### 7. Visualization
-
 Generates visualizations like scatter plots, time series, bar charts, heatmaps, and pie charts to provide insights:
 ```python
 def visualize_anomalies(features):
@@ -108,7 +101,6 @@ def visualize_anomalies(features):
 ```
 
 ### 8. Main Execution
-
 Executes the entire pipeline from loading data to saving results:
 ```python
 if __name__ == "__main__":
@@ -145,11 +137,6 @@ if __name__ == "__main__":
 
 ---
 
-## Conclusion
-
-This pipeline provides a structured approach to identifying, explaining, and visualizing network anomalies, making it a valuable tool for cybersecurity risk mitigation.
-
-
 ## Outputs
 
 ### Logs (`logs/`)
@@ -177,3 +164,9 @@ This pipeline provides a structured approach to identifying, explaining, and vis
 
 3. **Mitigation**:
    - High-confidence anomalies were flagged and added to a blocking policy, simulating an AWS WAF rule for IP blocking.
+
+---
+
+## Conclusion
+
+This pipeline provides a structured, scalable, and automated approach to detecting, explaining, and mitigating network anomalies, making it a valuable tool for enhancing cybersecurity strategies.
