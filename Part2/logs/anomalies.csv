@@ -1,0 +1,12 @@
+ClientIP,RequestCountByIP,AverageBytesByIP,Hour,Anomaly,ConfidenceScore,Reason
+51.208.59.112,1,3492.0,13.0,Anomaly,30,High data transfer per request.
+182.176.64.44,6,3131.3333333333335,13.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+144.22.126.181,5,2693.8,13.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+192.88.206.163,2,2148.5,13.0,Anomaly,0,No clear reason identified.
+147.229.206.97,5,2298.0,13.0,Anomaly,40,Unusually high request count.
+163.242.39.161,4,2250.0,13.0,Anomaly,0,No clear reason identified.
+35.55.26.168,4,2247.75,13.0,Anomaly,40,Unusually high request count.
+d705:a8a9:60a8:939b:9dc4:6621:2b7e:2671,1,1125.0,13.0,Anomaly,0,No clear reason identified.
+24.203.45.79,6,1099.8333333333333,13.0,Anomaly,40,Unusually high request count.
+124.84.190.162,1,4861.0,13.0,Anomaly,30,High data transfer per request.
+8e5e:6497:f5d4:cdc:f3f6:af09:4d70:ca77,1,3746.0,13.0,Anomaly,30,High data transfer per request.
