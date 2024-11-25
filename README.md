@@ -1,5 +1,6 @@
 
 # Cybersecurity Problem Solver Challenge
+![Alt text](images/logo.png)
 
 ## Introduction
 
