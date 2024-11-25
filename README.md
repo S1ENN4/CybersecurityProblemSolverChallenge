@@ -151,15 +151,15 @@ if __name__ == "__main__":
 
 ### Graphs (`graphs/`)
 1. **Anomaly Scatter Plot**: Visualizes normal and anomalous traffic.
-![Alt text](images/anomalies_part1.png)
-3. **Traffic Volume Time Series**: Displays hourly traffic activity
-![Alt text](images/anomalies_part1.png).
-4. **Top IPs by Data Transfer**: Highlights heavy data transfer IPs.
-![Alt text](images/anomalies_part1.png) 
-5. **Anomaly Reasons Pie Chart**: Explains anomaly causes.
-![Alt text](images/anomalies_part1.png)
-8. **Hourly Anomaly Heatmap**: Shows anomalies' hourly distribution.
-![Alt text](images/anomalies_part1.png)
+![Alt text](images/G1.png) 
+2. **Traffic Volume Time Series**: Displays hourly traffic activity
+![Alt text](images/G2.png) 
+3. **Top IPs by Data Transfer**: Highlights heavy data transfer IPs.
+![Alt text](images/G3.png) 
+4. **Anomaly Reasons Pie Chart**: Explains anomaly causes.
+![Alt text](images/G4.png)
+5. **Hourly Anomaly Heatmap**: Shows anomalies' hourly distribution.
+![Alt text](images/G5.png)
 
 ---
 
