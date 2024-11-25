@@ -165,10 +165,125 @@ if __name__ == "__main__":
 
 3. **Mitigation**:
    - High-confidence anomalies were flagged and added to a blocking policy, simulating an AWS WAF rule for IP blocking.
+  
+## Part 2: Scalability of the solution 
+
+### Introduction
+
+The second part of the project focuses on two key aspects: scalability for a real-world application and effective data visualization. It explores how the solution could theoretically scale and how a team could view critical data, such as all available logs, the blocked IPs flagged by the automated script, and anomaly logs with confidence scores below the threshold of 70. This enables a SOC team to review these entries, identify undetected incidents, and address potentially malicious IPs that were not automatically blocked.
 
 ---
+
+## Project Overview
+
+You can check out the video below to check it running:
+
 [Watch the video here](https://ooo.mmhmm.app/watch/z_ykm1CnvhWi1IDSzLJGUU)
 
-## Conclusion
+This project aims to detect anomalies within network traffic data to enhance cybersecurity measures. By leveraging machine learning and Kafka for real-time data ingestion, it provides an automated, scalable solution for monitoring network activity.
 
-This pipeline provides a structured, scalable, and automated approach to detecting, explaining, and mitigating network anomalies, making it a valuable tool for enhancing cybersecurity strategies.
+The solution includes:
+1. **Data Analysis**: Aggregation and preprocessing of network traffic logs.
+2. **Anomaly Detection**: Machine learning model (Isolation Forest) to classify traffic as normal or anomalous.
+3. **Risk Mitigation**: Actionable insights and recommendations for flagged anomalies.
+4. **Visualization**: Graphical representation of anomalies and trends for better understanding.
+
+---
+
+## Components
+
+### 1. **Anomaly Detection Module**
+The `anomaly_detection.py` script processes network traffic logs, applies feature engineering, detects anomalies using Isolation Forest, and provides confidence scores and reasons for flagged anomalies. Detected anomalies are logged and visualized for further analysis.
+
+### 2. **Log Generator**
+The `faker_log_generator.py` script simulates network traffic data using the Faker library and produces logs to a Kafka topic (`raw_network_data`). This emulates real-time traffic for testing the anomaly detection system.
+
+### 3. **Infrastructure**
+The `docker-compose.yml` file configures Kafka and other necessary services for running the application in a containerized environment.
+
+---
+
+## Key Features
+
+1. **Real-Time Data Processing**:
+   - Consumes logs from Kafka.
+   - Processes batches for scalable data handling.
+
+2. **Anomaly Detection**:
+   - Detects anomalies using Isolation Forest.
+   - Assigns confidence scores and reasons for flagged behavior.
+
+3. **Visualization**:
+   - Generates scatter plots to visualize anomalies.
+   - Saves visualizations for further review.
+
+4. **Automated Mitigation**:
+   - Logs and blocks high-risk IPs based on confidence scores.
+
+---
+
+## Workflow
+
+1. **Log Generation**:
+   - Simulated logs are generated and sent to Kafka.
+   
+2. **Data Processing**:
+   - Logs are consumed, processed, and features engineered.
+   
+3. **Anomaly Detection**:
+   - The Isolation Forest model flags anomalies and assigns confidence scores.
+   
+4. **Visualization**:
+   - Graphs highlight anomalies and trends in network activity.
+   
+5. **Mitigation**:
+   - High-risk IPs are logged and optionally blocked.
+   - 
+---
+
+## Security Policies
+
+1. **Anomaly Thresholds**:
+   - Request counts exceeding the 95th percentile.
+   - High data transfer rates.
+   - Activity outside normal hours (6 AM–10 PM).
+
+2. **Risk Mitigation**:
+   - Block IPs with confidence scores above 70.
+   - Notify security teams of flagged activity.
+
+---
+
+## Outputs
+
+1. **Logs**:
+   - All logs: `logs/all_logs.csv`
+   - Anomalies: `logs/anomalies.csv`
+   - Blocked IPs: `logs/blocked_ips.csv`
+
+2. **Visualizations**:
+   - Anomaly scatter plot: `graphs/anomaly_scatter_plot.png`
+
+---
+
+## Risk Assessment
+
+1. **Potential Threats**:
+   - Denial-of-Service (DoS) attacks.
+   - Unauthorized access attempts.
+   - Data exfiltration risks.
+
+2. **Actions Taken**:
+   - Confidence-based logging and blocking.
+   - Comprehensive visualization for informed decision-making.
+
+---
+
+## Future Enhancements - what could be applied in the next steps
+
+1. Integrate real-time alerting. (With real data)
+2. Expand feature engineering with additional data sources.
+3. Transition to a distributed processing system for scalability. 
+
+--- 
+
