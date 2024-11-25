@@ -143,15 +143,23 @@ if __name__ == "__main__":
 
 ### Logs (`logs/`)
 1. `features_with_anomalies.csv`: Full dataset with anomaly labels.
-2. `anomalous_ips_with_scores.csv`: Details of detected anomalies, including confidence scores and reasons.
-3. `blocked_ips.csv`: List of IPs blocked due to high confidence of malicious behavior.
+![Alt text](images/features_part1.png)
+3. `anomalous_ips_with_scores.csv`: Details of detected anomalies, including confidence scores and reasons.
+![Alt text](images/anomalies_part1.png)
+4. `blocked_ips.csv`: List of IPs blocked due to high confidence of malicious behavior.
+![Alt text](images/blocked_part1.png)
 
 ### Graphs (`graphs/`)
 1. **Anomaly Scatter Plot**: Visualizes normal and anomalous traffic.
-2. **Traffic Volume Time Series**: Displays hourly traffic activity.
-3. **Top IPs by Data Transfer**: Highlights heavy data transfer IPs.
-4. **Anomaly Reasons Pie Chart**: Explains anomaly causes.
-5. **Hourly Anomaly Heatmap**: Shows anomalies' hourly distribution.
+![Alt text](images/anomalies_part1.png)
+3. **Traffic Volume Time Series**: Displays hourly traffic activity
+![Alt text](images/anomalies_part1.png).
+4. **Top IPs by Data Transfer**: Highlights heavy data transfer IPs.
+![Alt text](images/anomalies_part1.png) 
+5. **Anomaly Reasons Pie Chart**: Explains anomaly causes.
+![Alt text](images/anomalies_part1.png)
+8. **Hourly Anomaly Heatmap**: Shows anomalies' hourly distribution.
+![Alt text](images/anomalies_part1.png)
 
 ---
 
