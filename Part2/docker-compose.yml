@@ -32,7 +32,7 @@ services:
     container_name: elasticsearch
     environment:
       discovery.type: single-node
-      xpack.security.enabled: "false" # Disable security
+      xpack.security.enabled: "false" 
     ports:
       - "9200:9200"
     volumes:
@@ -45,7 +45,7 @@ services:
       - elasticsearch
     environment:
       ELASTICSEARCH_HOSTS: "http://elasticsearch:9200"
-      XPACK_SECURITY_ENABLED: "false" # Disable security
+      XPACK_SECURITY_ENABLED: "false"
     ports:
       - "5601:5601"
 

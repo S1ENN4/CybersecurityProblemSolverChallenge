@@ -1,18 +1,12 @@
-# Kibana configuration for connecting to Elasticsearch
 server.host: "0.0.0.0"
 elasticsearch.hosts: ["http://elasticsearch:9200"]
-elasticsearch.username: "elastico"
-elasticsearch.password: "StrongPassword123"
-elasticsearch.serviceAccountToken: "AAEAAWVsYXN0aWMva2liYW5hL2tpYmFuYS10b2tlbjppd25kYTBiaFNNS1EwenRoaWpmX1F3"
 
-# Optional: Disable security features for simplicity (if needed)
 xpack.security.enabled: false
 xpack.encryptedSavedObjects.encryptionKey: "a_very_secure_key"
 
-# Optional: Customize the Kibana index (default is '.kibana')
+
 kibana.index: ".kibana"
 
-# Logging configuration (optional for debugging purposes)
 logging.root.level: info
 logging.appenders.console.type: console
 logging.appenders.console.layout.type: pattern
