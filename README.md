@@ -167,6 +167,7 @@ if __name__ == "__main__":
    - High-confidence anomalies were flagged and added to a blocking policy, simulating an AWS WAF rule for IP blocking.
 
 ---
+[Watch the video here](https://ooo.mmhmm.app/watch/z_ykm1CnvhWi1IDSzLJGUU)
 
 ## Conclusion
 
