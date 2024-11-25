@@ -186,6 +186,7 @@ The second part of the project focuses on two key aspects: scalability for a rea
 ## Project Overview
 
 You can check out the video below to check it running:
+<video src="https://ooo.mmhmm.app/watch/z_ykm1CnvhWi1IDSzLJGUU" width="300" />
 
 [Watch the video here](https://ooo.mmhmm.app/watch/z_ykm1CnvhWi1IDSzLJGUU)
 
