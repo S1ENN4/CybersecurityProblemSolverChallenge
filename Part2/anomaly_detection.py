@@ -5,9 +5,10 @@ from sklearn.ensemble import IsolationForest
 import matplotlib.pyplot as plt
 from confluent_kafka import Consumer, KafkaException, KafkaError
 
-# Ensure logs folder exists
 LOGS_FOLDER = 'logs'
+GRAPHS_FOLDER = 'graphs'
 os.makedirs(LOGS_FOLDER, exist_ok=True)
+os.makedirs(GRAPHS_FOLDER, exist_ok=True)
 
 def kafka_consumer_to_dataframe(consumer, batch_size=10):
     """Consume Kafka messages in batches and convert them to a Pandas DataFrame."""
@@ -78,12 +79,31 @@ def assign_anomaly_reasons(anomalous_ips, features):
 
 def append_to_csv(data, file_name):
     """Append data to a CSV file."""
-    full_path = os.path.join(LOGS_FOLDER, file_name)  # Save to logs folder
-    header = not os.path.exists(full_path)  # Add header if file doesn't exist
+    full_path = os.path.join(LOGS_FOLDER, file_name)
+    header = not os.path.exists(full_path)
     data.to_csv(full_path, mode='a', index=False, header=header)
 
+def generate_scatter_plot(features):
+    """Generate a scatter plot for anomalies and save it."""
+    normal_data = features[features['Anomaly'] == 'Normal']
+    anomalous_data = features[features['Anomaly'] == 'Anomaly']
+    
+    plt.figure(figsize=(12, 8))
+    plt.scatter(normal_data['RequestCountByIP'], normal_data['AverageBytesByIP'], 
+                color='blue', label='Normal', alpha=0.6)
+    plt.scatter(anomalous_data['RequestCountByIP'], anomalous_data['AverageBytesByIP'], 
+                color='red', label='Anomaly', alpha=0.8, edgecolor='black')
+    plt.yscale('log')
+    plt.xscale('log')
+    plt.xlabel('Request Count by IP (Log Scale)')
+    plt.ylabel('Average Bytes by IP (Log Scale)')
+    plt.title('Anomaly Detection in Network Traffic')
+    plt.legend()
+    plt.grid(True)
+    plt.savefig(os.path.join(GRAPHS_FOLDER, 'anomaly_scatter_plot.png'))
+    plt.close()
+
 if __name__ == '__main__':
-    # Kafka configuration
     kafka_topic = 'raw_network_data'
     kafka_bootstrap_servers = 'localhost:9093'
     kafka_group_id = 'anomaly_detection_group'
@@ -99,39 +119,27 @@ if __name__ == '__main__':
     try:
         print("Starting continuous log processing. Press Ctrl+C to stop.")
         while True:
-            # Consume logs in batches
             raw_data = kafka_consumer_to_dataframe(consumer, batch_size=10)
             if raw_data is None:
                 continue
 
-            print(f"Processing {len(raw_data)} messages...")
-
-            # Feature engineering
             features = feature_engineering(raw_data)
-
-            # Detect anomalies
             features = detect_anomalies(features)
-
-            # Add confidence scores
             features['ConfidenceScore'] = features.apply(
                 lambda row: calculate_confidence_score(row, features), axis=1
             )
-
-            # Save all logs
-            append_to_csv(features, 'all_logs.csv')
-
-            # Extract anomalies
             anomalies = features[features['Anomaly'] == 'Anomaly'].copy()
             anomalies = assign_anomaly_reasons(anomalies, features)
+
+            append_to_csv(features, 'all_logs.csv')
             append_to_csv(anomalies, 'anomalies.csv')
 
-            # Block IPs with high confidence scores
             BLOCK_THRESHOLD = 70
             blocked_ips = anomalies[anomalies['ConfidenceScore'] >= BLOCK_THRESHOLD]
             append_to_csv(blocked_ips, 'blocked_ips.csv')
 
-            print(f"Processed batch: {len(raw_data)} messages. Results saved in the 'logs' folder.")
-
+            generate_scatter_plot(features)
+            print(f"Batch processed. Logs saved in the 'logs' folder and scatter plot generated.")
     except KeyboardInterrupt:
         print("Stopping log processing.")
     finally:

@@ -10,3 +10,519 @@ d705:a8a9:60a8:939b:9dc4:6621:2b7e:2671,1,1125.0,13.0,Anomaly,0,No clear reason 
 24.203.45.79,6,1099.8333333333333,13.0,Anomaly,40,Unusually high request count.
 124.84.190.162,1,4861.0,13.0,Anomaly,30,High data transfer per request.
 8e5e:6497:f5d4:cdc:f3f6:af09:4d70:ca77,1,3746.0,13.0,Anomaly,30,High data transfer per request.
+37ba:82ba:e1ac:a46c:af71:5244:5a16:5b43,2,3908.5,18.0,Anomaly,30,High data transfer per request.
+46.16.90.85,3,1513.6666666666667,18.0,Anomaly,0,No clear reason identified.
+118.20.187.50,7,2386.1428571428573,18.0,Anomaly,40,Unusually high request count.
+fa3e:9668:9d32:c0b0:98c8:7547:9f6e:f83f,1,1931.0,18.0,Anomaly,0,No clear reason identified.
+26.158.117.152,2,1725.5,18.0,Anomaly,0,No clear reason identified.
+26.158.117.152,1,1299.0,18.0,Anomaly,0,No clear reason identified.
+d705:a8a9:60a8:939b:9dc4:6621:2b7e:2671,2,3326.5,18.0,Anomaly,30,High data transfer per request.
+24.203.45.79,6,2918.1666666666665,18.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+192.88.206.163,7,2670.714285714286,18.0,Anomaly,40,Unusually high request count.
+157.226.241.234,6,2037.8333333333333,18.0,Anomaly,40,Unusually high request count.
+202.130.100.163,6,3718.1666666666665,18.0,Anomaly,40,Unusually high request count.
+186.140.93.12,1,2620.0,18.0,Anomaly,0,No clear reason identified.
+120.181.116.177,1,1834.0,18.0,Anomaly,0,No clear reason identified.
+d9d:36c0:e7b6:a6d:c48e:ad9e:a661:e853,1,4144.0,18.0,Anomaly,30,High data transfer per request.
+3f06:3e65:c498:3872:f31d:b2ce:1415:18a,8,3043.25,18.0,Anomaly,40,Unusually high request count.
+208.18.27.110,7,1897.7142857142858,18.0,Anomaly,40,Unusually high request count.
+62.43.91.245,5,3455.2,18.0,Anomaly,40,Unusually high request count.
+62.43.91.245,4,2914.25,18.0,Anomaly,40,Unusually high request count.
+203.113.206.104,4,2454.0,18.0,Anomaly,40,Unusually high request count.
+153.67.53.47,2,1569.0,18.0,Anomaly,0,No clear reason identified.
+193.206.235.29,5,2344.8,18.0,Anomaly,40,Unusually high request count.
+c16f:f49a:cdf4:7c73:bb8c:be16:e521:84ea,3,2291.0,19.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+46.16.90.85,3,2893.0,19.0,Anomaly,30,High data transfer per request.
+51.208.59.112,6,1367.1666666666667,19.0,Anomaly,40,Unusually high request count.
+181.162.159.214,1,1672.0,19.0,Anomaly,0,No clear reason identified.
+202.130.100.163,7,3417.0,20.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+186.140.93.12,6,2995.5,20.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+13.138.114.25,1,4987.0,20.0,Anomaly,30,High data transfer per request.
+e0b9:e8fb:414d:c791:d27e:a3b3:6332:b1e4,1,2840.0,20.0,Anomaly,30,High data transfer per request.
+208.18.27.110,2,2259.0,20.0,Anomaly,0,No clear reason identified.
+109.73.163.216,6,2600.8333333333335,20.0,Anomaly,40,Unusually high request count.
+139.160.74.185,6,3104.6666666666665,20.0,Anomaly,40,Unusually high request count.
+139.160.74.185,1,4998.0,20.0,Anomaly,30,High data transfer per request.
+557b:1074:fa5a:f4f7:f9f1:d308:87df:8d90,4,1804.5,20.0,Anomaly,0,No clear reason identified.
+26.22.43.163,1,4237.0,20.0,Anomaly,30,High data transfer per request.
+96ce:e7b1:57e8:6efa:d52:5da8:8ee6:ee20,8,2395.5,20.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+31f2:9266:fc4f:d770:5997:d0b2:c2b1:7865,1,822.0,20.0,Anomaly,0,No clear reason identified.
+209.98.11.76,3,2788.6666666666665,20.0,Anomaly,0,No clear reason identified.
+17.115.142.0,1,3301.0,20.0,Anomaly,30,High data transfer per request.
+6b3a:8b99:836e:b0df:f21e:97e7:7690:e322,7,2379.714285714286,20.0,Anomaly,40,Unusually high request count.
+141.148.116.60,1,555.0,20.0,Anomaly,0,No clear reason identified.
+b7f1:51f7:7238:e28e:9d1a:6212:d254:26e9,1,4188.0,20.0,Anomaly,30,High data transfer per request.
+144.43.7.43,5,2134.2,20.0,Anomaly,40,Unusually high request count.
+16.159.225.176,6,3642.3333333333335,20.0,Anomaly,40,Unusually high request count.
+158.240.206.108,1,618.0,20.0,Anomaly,0,No clear reason identified.
+a688:e24d:3d2c:30cf:656c:a815:e66b:435e,8,2981.375,20.0,Anomaly,40,Unusually high request count.
+74.92.18.110,1,2343.0,20.0,Anomaly,0,No clear reason identified.
+8e1b:644e:4cad:9ccd:38f8:cd64:169:bcb2,6,3325.6666666666665,20.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+a04a:592d:b97b:91e1:e999:3308:c129:bb09,4,1928.0,20.0,Anomaly,40,Unusually high request count.
+5.220.16.161,1,1338.0,20.0,Anomaly,0,No clear reason identified.
+42.33.133.98,4,2129.5,20.0,Anomaly,40,Unusually high request count.
+11dd:a4:c46b:e95a:806f:d9a3:e946:7609,2,2475.5,20.0,Anomaly,0,No clear reason identified.
+4e31:99eb:683b:81c3:1cd0:9058:ac77:d9c,5,2208.0,20.0,Anomaly,40,Unusually high request count.
+6.174.174.121,7,1588.0,20.0,Anomaly,40,Unusually high request count.
+13.235.167.220,1,4676.0,20.0,Anomaly,30,High data transfer per request.
+1de1:e430:6339:ee5d:9ee1:c3bf:8fd9:1089,7,2657.5714285714284,20.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+9b0:e51a:6340:c724:51be:e0c7:9e12:38d,2,2220.5,20.0,Anomaly,0,No clear reason identified.
+181.37.150.112,1,775.0,20.0,Anomaly,0,No clear reason identified.
+171.26.86.1,8,3272.0,20.0,Anomaly,40,Unusually high request count.
+cad6:878f:a91e:78d:38bd:30f3:e491:1cc4,1,598.0,20.0,Anomaly,0,No clear reason identified.
+c18e:fb8:2e4e:36ca:910d:a6d:237:9863,6,3709.6666666666665,20.0,Anomaly,40,Unusually high request count.
+222.2.129.147,4,3171.5,20.0,Anomaly,40,Unusually high request count.
+1.197.149.223,1,728.0,20.0,Anomaly,0,No clear reason identified.
+fcaf:91b6:d343:20a2:c74e:f9f6:9728:e527,1,3780.0,20.0,Anomaly,30,High data transfer per request.
+fe90:641e:5643:a0c0:59f5:f317:f7eb:19db,1,4101.0,20.0,Anomaly,30,High data transfer per request.
+189.111.236.123,3,1737.3333333333333,20.0,Anomaly,0,No clear reason identified.
+189.111.236.123,6,2797.3333333333335,20.0,Anomaly,40,Unusually high request count.
+57.112.34.158,2,1779.0,20.0,Anomaly,0,No clear reason identified.
+62.162.224.138,1,4424.0,20.0,Anomaly,30,High data transfer per request.
+35.96.80.127,7,2152.0,20.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+208.150.99.181,2,1897.5,20.0,Anomaly,0,No clear reason identified.
+74.80.46.5,1,2538.0,20.0,Anomaly,0,No clear reason identified.
+55f0:2443:10b3:5674:678c:fd53:cd31:2fdf,4,3526.75,20.0,Anomaly,30,High data transfer per request.
+7aaf:6457:8538:8197:e2fa:87ca:7f5c:750f,7,3826.4285714285716,20.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+216.98.125.198,6,1993.1666666666667,20.0,Anomaly,40,Unusually high request count.
+34.86.235.150,2,3245.5,20.0,Anomaly,0,No clear reason identified.
+110.104.236.144,6,3419.5,20.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+171.70.20.76,1,3142.0,20.0,Anomaly,30,High data transfer per request.
+101.199.161.14,1,4721.0,20.0,Anomaly,30,High data transfer per request.
+154.194.118.163,1,4692.0,20.0,Anomaly,30,High data transfer per request.
+6b5b:e557:d7e5:fca5:ba63:95d3:a355:d8f1,3,1938.0,20.0,Anomaly,0,No clear reason identified.
+b7c4:35f2:1794:1f1d:4ed6:329d:b19a:2866,1,1446.0,20.0,Anomaly,0,No clear reason identified.
+3f65:b857:3d97:f83d:e997:4369:cea4:88d0,1,1553.0,20.0,Anomaly,0,No clear reason identified.
+6f7a:16f3:1d1a:a5dc:1d7f:be42:ff44:917,1,913.0,20.0,Anomaly,0,No clear reason identified.
+41fc:9fa5:6956:7f2d:d6f:81cc:8d93:9c,6,2350.1666666666665,20.0,Anomaly,40,Unusually high request count.
+51.224.8.91,7,3427.1428571428573,20.0,Anomaly,40,Unusually high request count.
+30.139.212.136,8,2016.625,20.0,Anomaly,40,Unusually high request count.
+128.252.111.38,1,1428.0,20.0,Anomaly,0,No clear reason identified.
+189.82.162.197,2,1204.5,20.0,Anomaly,0,No clear reason identified.
+fc23:40e8:2c2a:5e12:ed13:299b:2a84:620f,7,2477.5714285714284,20.0,Anomaly,40,Unusually high request count.
+18fd:3892:e07f:d076:9c5:2c06:51fc:72be,5,2116.8,20.0,Anomaly,40,Unusually high request count.
+105.157.148.86,4,2253.5,20.0,Anomaly,40,Unusually high request count.
+50.75.228.64,4,3394.75,20.0,Anomaly,30,High data transfer per request.
+145.53.0.212,7,2087.714285714286,20.0,Anomaly,40,Unusually high request count.
+c6c9:93c4:a566:d3ce:bc5:e315:ff97:32b1,1,3327.0,20.0,Anomaly,30,High data transfer per request.
+77.221.81.254,8,2421.875,20.0,Anomaly,40,Unusually high request count.
+447b:925d:d8bb:31b4:8930:458d:ddef:65b8,1,4519.0,20.0,Anomaly,30,High data transfer per request.
+124.66.116.250,1,2153.0,20.0,Anomaly,0,No clear reason identified.
+6d5a:cda2:1304:34c5:5d59:b80a:1ed:291e,1,4635.0,20.0,Anomaly,30,High data transfer per request.
+86.132.177.9,5,1900.4,20.0,Anomaly,40,Unusually high request count.
+133.131.151.143,8,2492.75,20.0,Anomaly,40,Unusually high request count.
+26.158.117.152,7,2556.5714285714284,20.0,Anomaly,40,Unusually high request count.
+61ea:33:8635:8107:a7f2:869d:43c:f3,2,3798.5,20.0,Anomaly,30,High data transfer per request.
+86.61.216.209,5,2384.4,20.0,Anomaly,40,Unusually high request count.
+903d:a795:d49c:aacf:941b:901c:7b01:2a1b,5,2489.4,20.0,Anomaly,40,Unusually high request count.
+62fb:afa6:54ad:30fa:9289:57ee:540d:8d00,1,1590.0,20.0,Anomaly,0,No clear reason identified.
+d206:673a:ff69:2f30:8ba8:ae83:7451:2c19,7,2217.5714285714284,20.0,Anomaly,40,Unusually high request count.
+24.241.178.9,8,3308.25,20.0,Anomaly,40,Unusually high request count.
+164.98.13.129,8,2192.125,20.0,Anomaly,40,Unusually high request count.
+a38f:9f65:9db6:1b88:5ebc:b8b3:9080:44a2,6,2812.6666666666665,20.0,Anomaly,40,Unusually high request count.
+163.34.193.109,1,1105.0,20.0,Anomaly,0,No clear reason identified.
+163.34.193.109,7,2525.4285714285716,20.0,Anomaly,40,Unusually high request count.
+7e60:bf91:51f1:7b9a:70c3:e603:2254:bf9d,1,3711.0,20.0,Anomaly,30,High data transfer per request.
+9e2e:2718:d42e:2340:9ad7:8f25:bdaf:9534,1,1580.0,20.0,Anomaly,0,No clear reason identified.
+9e2e:2718:d42e:2340:9ad7:8f25:bdaf:9534,8,3335.5,20.0,Anomaly,40,Unusually high request count.
+131.65.63.238,1,2300.0,20.0,Anomaly,0,No clear reason identified.
+131.65.63.238,5,2281.0,20.0,Anomaly,40,Unusually high request count.
+483:c7eb:a8db:361d:4dbd:1b1:71f7:52d7,5,1605.0,20.0,Anomaly,40,Unusually high request count.
+bede:8740:676:dc55:3653:f2cd:4d52:4e1d,2,4409.0,20.0,Anomaly,30,High data transfer per request.
+172.184.38.107,2,939.5,20.0,Anomaly,0,No clear reason identified.
+30bd:930a:a93b:666e:6446:3929:14cb:81e1,7,2831.4285714285716,20.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+223.44.78.154,6,1805.3333333333333,20.0,Anomaly,40,Unusually high request count.
+d9d3:9945:20ee:e392:de95:117b:1e30:cb63,6,2509.1666666666665,20.0,Anomaly,40,Unusually high request count.
+45.210.96.32,1,616.0,20.0,Anomaly,0,No clear reason identified.
+172.73.227.140,6,3787.6666666666665,20.0,Anomaly,40,Unusually high request count.
+192.19.249.147,4,3128.75,20.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+d4a5:70ac:b1c0:d8e6:ee02:a76e:4fd9:8bdd,2,4205.5,20.0,Anomaly,30,High data transfer per request.
+37ba:82ba:e1ac:a46c:af71:5244:5a16:5b43,1,512.0,21.0,Anomaly,0,No clear reason identified.
+c16f:f49a:cdf4:7c73:bb8c:be16:e521:84ea,4,2731.25,21.0,Anomaly,40,Unusually high request count.
+46.16.90.85,6,2729.3333333333335,21.0,Anomaly,40,Unusually high request count.
+182.176.64.44,6,3433.5,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+192.88.206.163,5,3491.4,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+fa3e:9668:9d32:c0b0:98c8:7547:9f6e:f83f,8,2686.875,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+31.73.212.3,7,2338.8571428571427,21.0,Anomaly,40,Unusually high request count.
+203.21.227.255,4,2656.25,21.0,Anomaly,40,Unusually high request count.
+148.90.126.75,6,3331.0,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+35.55.26.168,3,1645.0,21.0,Anomaly,0,No clear reason identified.
+13.130.250.125,2,2969.0,21.0,Anomaly,0,No clear reason identified.
+192.88.206.163,6,3205.3333333333335,21.0,Anomaly,40,Unusually high request count.
+157.226.241.234,4,2329.75,21.0,Anomaly,40,Unusually high request count.
+171.76.104.123,2,4005.5,21.0,Anomaly,30,High data transfer per request.
+3a8:6e06:39c4:d350:4892:714b:bfe8:e47a,1,2627.0,21.0,Anomaly,0,No clear reason identified.
+159.93.54.79,4,2583.5,21.0,Anomaly,40,Unusually high request count.
+162.86.96.220,6,2519.0,21.0,Anomaly,40,Unusually high request count.
+208.18.27.110,4,2439.5,21.0,Anomaly,40,Unusually high request count.
+63.118.177.184,1,2572.0,21.0,Anomaly,30,High data transfer per request.
+6184:c147:4538:efee:d1f0:ff81:eda5:1465,4,2373.25,21.0,Anomaly,40,Unusually high request count.
+222.181.221.87,1,1350.0,21.0,Anomaly,0,No clear reason identified.
+60.237.185.56,1,772.0,21.0,Anomaly,0,No clear reason identified.
+153.67.53.47,1,4772.0,21.0,Anomaly,30,High data transfer per request.
+c4c2:abea:fe7c:5e35:28c3:7c92:eae6:d32a,2,2631.0,21.0,Anomaly,0,No clear reason identified.
+557b:1074:fa5a:f4f7:f9f1:d308:87df:8d90,1,4879.0,21.0,Anomaly,30,High data transfer per request.
+96ce:e7b1:57e8:6efa:d52:5da8:8ee6:ee20,1,1213.0,21.0,Anomaly,0,No clear reason identified.
+96.152.27.237,1,3662.0,21.0,Anomaly,30,High data transfer per request.
+129.250.178.34,1,1536.0,21.0,Anomaly,0,No clear reason identified.
+128.40.28.16,2,2865.0,21.0,Anomaly,30,High data transfer per request.
+51.208.59.112,6,2252.3333333333335,21.0,Anomaly,40,Unusually high request count.
+46.16.90.85,6,3683.3333333333335,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+144.22.126.181,5,3519.2,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+45.45.141.196,1,4429.0,21.0,Anomaly,30,High data transfer per request.
+31.73.212.3,7,2656.714285714286,21.0,Anomaly,40,Unusually high request count.
+133.157.216.48,3,2240.6666666666665,21.0,Anomaly,0,No clear reason identified.
+125.53.88.74,4,2220.5,21.0,Anomaly,40,Unusually high request count.
+35.55.26.168,2,919.0,21.0,Anomaly,0,No clear reason identified.
+d705:a8a9:60a8:939b:9dc4:6621:2b7e:2671,6,1705.1666666666667,21.0,Anomaly,40,Unusually high request count.
+13.130.250.125,4,3158.0,21.0,Anomaly,30,High data transfer per request.
+6.184.51.168,8,2763.375,21.0,Anomaly,40,Unusually high request count.
+186.140.93.12,2,2407.0,21.0,Anomaly,0,No clear reason identified.
+120.181.116.177,1,1447.0,21.0,Anomaly,0,No clear reason identified.
+175.74.74.112,2,2618.0,21.0,Anomaly,0,No clear reason identified.
+e0b9:e8fb:414d:c791:d27e:a3b3:6332:b1e4,2,1153.0,21.0,Anomaly,0,No clear reason identified.
+63.118.177.184,6,3037.3333333333335,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+6184:c147:4538:efee:d1f0:ff81:eda5:1465,2,2313.5,21.0,Anomaly,0,No clear reason identified.
+16.38.215.44,5,2315.0,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+60.237.185.56,2,1619.0,21.0,Anomaly,0,No clear reason identified.
+51.208.59.112,1,1998.0,21.0,Anomaly,0,No clear reason identified.
+46.16.90.85,6,3597.5,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+144.22.126.181,8,3219.5,21.0,Anomaly,40,Unusually high request count.
+45.45.141.196,8,2902.5,21.0,Anomaly,40,Unusually high request count.
+31.73.212.3,6,3367.6666666666665,21.0,Anomaly,40,Unusually high request count.
+133.157.216.48,8,3200.25,21.0,Anomaly,40,Unusually high request count.
+125.53.88.74,8,3423.75,21.0,Anomaly,40,Unusually high request count.
+71.229.62.234,1,4493.0,21.0,Anomaly,0,No clear reason identified.
+8e5e:6497:f5d4:cdc:f3f6:af09:4d70:ca77,6,2566.6666666666665,21.0,Anomaly,40,Unusually high request count.
+157.226.241.234,1,1262.0,21.0,Anomaly,0,No clear reason identified.
+93.22.82.224,1,1193.0,21.0,Anomaly,0,No clear reason identified.
+d9d:36c0:e7b6:a6d:c48e:ad9e:a661:e853,4,3679.25,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+175.74.74.112,6,2913.3333333333335,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+53.254.234.52,1,4669.0,21.0,Anomaly,30,High data transfer per request.
+208.18.27.110,1,4617.0,21.0,Anomaly,30,High data transfer per request.
+208.18.27.110,5,1779.6,21.0,Anomaly,40,Unusually high request count.
+98.197.20.168,5,928.8,21.0,Anomaly,40,Unusually high request count.
+16.38.215.44,6,3360.8333333333335,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+60.237.185.56,4,3103.75,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+193.206.235.29,3,3675.3333333333335,21.0,Anomaly,30,High data transfer per request.
+161.194.109.104,6,1881.3333333333333,21.0,Anomaly,40,Unusually high request count.
+26.22.43.163,4,2692.0,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+195.124.204.247,6,2867.8333333333335,21.0,Anomaly,40,Unusually high request count.
+31f2:9266:fc4f:d770:5997:d0b2:c2b1:7865,6,2727.8333333333335,21.0,Anomaly,40,Unusually high request count.
+209.98.11.76,1,1260.0,21.0,Anomaly,0,No clear reason identified.
+209.98.11.76,6,2869.1666666666665,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+6896:bb45:7523:eb4c:8444:e29a:7345:ad57,7,2705.0,21.0,Anomaly,40,Unusually high request count.
+181.99.122.47,6,2708.1666666666665,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+60.91.63.198,1,1212.0,21.0,Anomaly,0,No clear reason identified.
+72.195.131.59,1,560.0,21.0,Anomaly,0,No clear reason identified.
+37ba:82ba:e1ac:a46c:af71:5244:5a16:5b43,4,2061.5,21.0,Anomaly,40,Unusually high request count.
+116.254.36.200,7,3320.285714285714,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+45.45.141.196,1,4056.0,21.0,Anomaly,30,High data transfer per request.
+59b3:7d5f:5dbe:23a6:c9cc:90a1:556f:11d7,5,3556.4,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+203.21.227.255,7,2722.8571428571427,21.0,Anomaly,40,Unusually high request count.
+203.21.227.255,1,4509.0,21.0,Anomaly,30,High data transfer per request.
+133.157.216.48,6,3887.0,21.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+51.208.59.112,2,4774.5,21.0,Anomaly,30,High data transfer per request.
+181.162.159.214,2,3111.0,21.0,Anomaly,0,No clear reason identified.
+192.88.206.163,1,1309.0,21.0,Anomaly,0,No clear reason identified.
+116.254.36.200,6,2718.8333333333335,22.0,Anomaly,40,Unusually high request count.
+182.176.64.44,2,2807.0,22.0,Anomaly,30,High data transfer per request.
+118.20.187.50,1,2953.0,22.0,Anomaly,30,High data transfer per request.
+fa3e:9668:9d32:c0b0:98c8:7547:9f6e:f83f,6,2337.6666666666665,22.0,Anomaly,40,Unusually high request count.
+203.21.227.255,3,1594.0,22.0,Anomaly,0,No clear reason identified.
+26.158.117.152,1,4036.0,22.0,Anomaly,30,High data transfer per request.
+116.254.36.200,1,3289.0,22.0,Anomaly,30,High data transfer per request.
+182.176.64.44,6,3060.8333333333335,22.0,Anomaly,40,Unusually high request count.
+118.20.187.50,5,2127.0,22.0,Anomaly,40,Unusually high request count.
+118.20.187.50,1,3435.0,22.0,Anomaly,30,High data transfer per request.
+59b3:7d5f:5dbe:23a6:c9cc:90a1:556f:11d7,1,870.0,22.0,Anomaly,0,No clear reason identified.
+203.21.227.255,8,2396.125,22.0,Anomaly,40,Unusually high request count.
+133.157.216.48,1,2086.0,22.0,Anomaly,0,No clear reason identified.
+133.157.216.48,6,2477.0,22.0,Anomaly,40,Unusually high request count.
+91.28.165.177,5,2304.0,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+91.28.165.177,5,2425.8,22.0,Anomaly,40,Unusually high request count.
+197.133.212.52,1,4549.0,22.0,Anomaly,30,High data transfer per request.
+71.229.62.234,7,3582.285714285714,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+6.184.51.168,1,860.0,22.0,Anomaly,0,No clear reason identified.
+157.226.241.234,8,2948.75,22.0,Anomaly,40,Unusually high request count.
+a3e3:34a9:b19e:dc47:6f8e:14a6:80dc:9f1,1,2205.0,22.0,Anomaly,0,No clear reason identified.
+120.181.116.177,6,2938.5,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+53.254.234.52,2,2261.0,22.0,Anomaly,0,No clear reason identified.
+e0b9:e8fb:414d:c791:d27e:a3b3:6332:b1e4,5,2784.8,22.0,Anomaly,40,Unusually high request count.
+63.118.177.184,1,713.0,22.0,Anomaly,0,No clear reason identified.
+6184:c147:4538:efee:d1f0:ff81:eda5:1465,5,2192.6,22.0,Anomaly,40,Unusually high request count.
+16.38.215.44,7,2129.285714285714,22.0,Anomaly,40,Unusually high request count.
+139.160.74.185,1,2983.0,22.0,Anomaly,0,No clear reason identified.
+557b:1074:fa5a:f4f7:f9f1:d308:87df:8d90,2,1831.5,22.0,Anomaly,0,No clear reason identified.
+195.124.204.247,4,2785.75,22.0,Anomaly,40,Unusually high request count.
+96ce:e7b1:57e8:6efa:d52:5da8:8ee6:ee20,4,3523.5,22.0,Anomaly,30,High data transfer per request.
+98.170.21.199,8,2814.375,22.0,Anomaly,40,Unusually high request count.
+163.203.134.192,6,3158.1666666666665,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+129.250.178.34,1,2271.0,22.0,Anomaly,0,No clear reason identified.
+17.115.142.0,2,3881.0,22.0,Anomaly,30,High data transfer per request.
+60.91.63.198,2,2730.0,22.0,Anomaly,0,No clear reason identified.
+b7f1:51f7:7238:e28e:9d1a:6212:d254:26e9,1,1127.0,22.0,Anomaly,0,No clear reason identified.
+143.192.219.104,6,2117.1666666666665,22.0,Anomaly,40,Unusually high request count.
+154.137.30.206,8,3735.0,22.0,Anomaly,40,Unusually high request count.
+821a:a59b:d30f:9252:ad24:2733:74d5:3483,3,1724.6666666666667,22.0,Anomaly,0,No clear reason identified.
+949b:25a4:aada:9f54:8138:bacf:97d3:607b,1,3799.0,22.0,Anomaly,30,High data transfer per request.
+8879:e3ec:e444:a176:67eb:b0da:4590:d95,1,4664.0,22.0,Anomaly,30,High data transfer per request.
+131.34.14.26,2,3687.5,22.0,Anomaly,30,High data transfer per request.
+74.92.18.110,1,2209.0,22.0,Anomaly,0,No clear reason identified.
+219.174.86.216,1,2511.0,22.0,Anomaly,0,No clear reason identified.
+219.174.86.216,1,1273.0,22.0,Anomaly,0,No clear reason identified.
+a04a:592d:b97b:91e1:e999:3308:c129:bb09,7,1920.5714285714287,22.0,Anomaly,40,Unusually high request count.
+14.223.170.36,2,4227.0,22.0,Anomaly,30,High data transfer per request.
+68c7:c7e8:9c7e:5cc1:d382:ad3c:587:3c01,7,2514.0,22.0,Anomaly,40,Unusually high request count.
+50.27.100.33,5,2891.4,22.0,Anomaly,40,Unusually high request count.
+52.62.129.18,6,3237.3333333333335,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+219.174.86.216,1,4873.0,22.0,Anomaly,30,High data transfer per request.
+92.126.154.181,1,1010.0,22.0,Anomaly,0,No clear reason identified.
+92.126.154.181,1,4963.0,22.0,Anomaly,30,High data transfer per request.
+181.37.150.112,2,2296.5,22.0,Anomaly,0,No clear reason identified.
+ae72:dfef:3680:b22d:3253:3bee:ab:1481,4,4072.5,22.0,Anomaly,40,Unusually high request count.
+ae72:dfef:3680:b22d:3253:3bee:ab:1481,6,2002.0,22.0,Anomaly,40,Unusually high request count.
+d7e9:2c02:8c8a:a109:2b4f:b9af:b5c6:afe6,1,4871.0,22.0,Anomaly,30,High data transfer per request.
+77.239.229.187,4,2300.25,22.0,Anomaly,40,Unusually high request count.
+fe90:641e:5643:a0c0:59f5:f317:f7eb:19db,7,2729.4285714285716,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+68.210.202.179,7,3001.8571428571427,22.0,Anomaly,40,Unusually high request count.
+d5b0:9ff0:bbb6:6201:f909:da53:fd2:6374,4,3916.5,22.0,Anomaly,30,High data transfer per request.
+7799:4989:1cdb:b0da:2781:2843:2a4a:497b,4,2468.0,22.0,Anomaly,40,Unusually high request count.
+35.96.80.127,2,4081.0,22.0,Anomaly,30,High data transfer per request.
+37ba:82ba:e1ac:a46c:af71:5244:5a16:5b43,1,3421.0,22.0,Anomaly,30,High data transfer per request.
+116.254.36.200,5,1964.4,22.0,Anomaly,40,Unusually high request count.
+147.229.206.97,1,3318.0,22.0,Anomaly,30,High data transfer per request.
+133.157.216.48,6,2997.8333333333335,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+35.55.26.168,8,1706.25,22.0,Anomaly,40,Unusually high request count.
+124.84.190.162,1,1754.0,22.0,Anomaly,0,No clear reason identified.
+13.130.250.125,8,2868.0,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+133.157.216.48,1,911.0,22.0,Anomaly,0,No clear reason identified.
+133.157.216.48,8,3170.875,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+3a8:6e06:39c4:d350:4892:714b:bfe8:e47a,7,2499.714285714286,22.0,Anomaly,40,Unusually high request count.
+d9d:36c0:e7b6:a6d:c48e:ad9e:a661:e853,3,1062.3333333333333,22.0,Anomaly,40,Unusually high request count.
+162.86.96.220,7,3534.285714285714,22.0,Anomaly,40,Unusually high request count.
+6184:c147:4538:efee:d1f0:ff81:eda5:1465,4,2584.0,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+203.113.206.104,4,2125.25,22.0,Anomaly,0,No clear reason identified.
+153.67.53.47,1,1016.0,22.0,Anomaly,0,No clear reason identified.
+c4c2:abea:fe7c:5e35:28c3:7c92:eae6:d32a,8,3631.625,22.0,Anomaly,40,Unusually high request count.
+557b:1074:fa5a:f4f7:f9f1:d308:87df:8d90,8,3077.875,22.0,Anomaly,40,Unusually high request count.
+278e:2b72:5a3f:3c6e:f5c1:3f63:358f:91aa,5,2701.0,22.0,Anomaly,40,Unusually high request count.
+98.170.21.199,4,3308.75,22.0,Anomaly,30,High data transfer per request.
+209.98.11.76,1,4600.0,22.0,Anomaly,30,High data transfer per request.
+129.250.178.34,1,3861.0,22.0,Anomaly,30,High data transfer per request.
+8969:efd3:4dfb:c31:dc92:2ebe:5660:e9ce,4,4076.75,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+6b3a:8b99:836e:b0df:f21e:97e7:7690:e322,5,2914.2,22.0,Anomaly,40,Unusually high request count.
+141.148.116.60,5,2551.4,22.0,Anomaly,40,Unusually high request count.
+72.195.131.59,1,2272.0,22.0,Anomaly,0,No clear reason identified.
+88.225.96.138,1,4556.0,22.0,Anomaly,30,High data transfer per request.
+949b:25a4:aada:9f54:8138:bacf:97d3:607b,7,2077.714285714286,22.0,Anomaly,40,Unusually high request count.
+16.159.225.176,4,2763.5,22.0,Anomaly,40,Unusually high request count.
+8879:e3ec:e444:a176:67eb:b0da:4590:d95,1,1558.0,22.0,Anomaly,0,No clear reason identified.
+e278:c67:da3:f346:7cbd:b7fc:6725:1f83,2,3031.0,22.0,Anomaly,0,No clear reason identified.
+8e1b:644e:4cad:9ccd:38f8:cd64:169:bcb2,2,2455.0,22.0,Anomaly,0,No clear reason identified.
+3dc6:5a91:f39e:2c95:b832:8072:1f62:9fd1,1,4630.0,22.0,Anomaly,30,High data transfer per request.
+14.223.170.36,1,1174.0,22.0,Anomaly,0,No clear reason identified.
+25.80.51.61,2,1604.5,22.0,Anomaly,0,No clear reason identified.
+11dd:a4:c46b:e95a:806f:d9a3:e946:7609,1,3877.0,22.0,Anomaly,30,High data transfer per request.
+6.174.174.121,8,2815.125,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+52.62.129.18,7,2280.285714285714,22.0,Anomaly,40,Unusually high request count.
+98.77.206.103,6,3438.6666666666665,22.0,Anomaly,40,Unusually high request count.
+92.126.154.181,5,3101.2,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+10.182.218.251,8,2651.125,22.0,Anomaly,40,Unusually high request count.
+97.15.158.160,7,2910.1428571428573,22.0,Anomaly,40,Unusually high request count.
+212.130.9.180,1,727.0,22.0,Anomaly,0,No clear reason identified.
+23.159.246.188,6,3421.5,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+d7e9:2c02:8c8a:a109:2b4f:b9af:b5c6:afe6,1,3603.0,22.0,Anomaly,30,High data transfer per request.
+146.96.22.19,1,4564.0,22.0,Anomaly,30,High data transfer per request.
+76.240.20.120,7,3226.1428571428573,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+fcaf:91b6:d343:20a2:c74e:f9f6:9728:e527,1,3277.0,22.0,Anomaly,30,High data transfer per request.
+68.210.202.179,2,2412.0,22.0,Anomaly,0,No clear reason identified.
+189.111.236.123,1,3428.0,22.0,Anomaly,30,High data transfer per request.
+222.2.129.147,5,3882.8,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+57.112.34.158,5,4136.2,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+128.3.125.57,4,3191.75,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+208.150.99.181,2,1148.5,22.0,Anomaly,0,No clear reason identified.
+170.144.45.18,8,2938.25,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+65b8:3cef:86c0:a718:3a2d:b106:1d8c:d7d2,1,4309.0,22.0,Anomaly,30,High data transfer per request.
+7000:72f9:b081:ca5b:839a:ecf5:84ed:fb1,1,2071.0,22.0,Anomaly,0,No clear reason identified.
+103.214.197.146,2,3815.0,22.0,Anomaly,30,High data transfer per request.
+216.98.125.198,4,2687.75,22.0,Anomaly,40,Unusually high request count.
+171.70.20.76,2,3272.5,22.0,Anomaly,30,High data transfer per request.
+101.199.161.14,1,1342.0,22.0,Anomaly,0,No clear reason identified.
+874d:26b4:9a90:3a9a:1156:11a7:ee80:b41b,5,2826.2,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+6fb:f7a7:3043:3956:a467:ce25:5dce:c2d0,1,4687.0,22.0,Anomaly,30,High data transfer per request.
+124.151.203.241,2,4493.5,22.0,Anomaly,30,High data transfer per request.
+3f65:b857:3d97:f83d:e997:4369:cea4:88d0,7,2764.4285714285716,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+21df:351f:6093:f38b:756a:ce46:dc03:69b7,6,2664.6666666666665,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+10.228.210.2,4,2715.75,22.0,Anomaly,40,Unusually high request count.
+41fc:9fa5:6956:7f2d:d6f:81cc:8d93:9c,1,4172.0,22.0,Anomaly,30,High data transfer per request.
+a5d1:d10:76f0:5362:b182:c95b:2f34:6a1f,2,1819.0,22.0,Anomaly,0,No clear reason identified.
+3.77.162.116,4,1764.0,22.0,Anomaly,40,Unusually high request count.
+8f9:3eab:5c9:675d:c13f:c2a5:386a:92d8,6,3184.6666666666665,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+bef9:dfb0:601f:d831:86d9:54a0:e836:756a,6,2087.6666666666665,22.0,Anomaly,40,Unusually high request count.
+5ba1:fec8:6d2b:ba8e:f79:ff69:549e:2770,6,2586.3333333333335,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+50.75.228.64,1,2540.0,22.0,Anomaly,0,No clear reason identified.
+145.53.0.212,7,2697.714285714286,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+c6c9:93c4:a566:d3ce:bc5:e315:ff97:32b1,2,2354.0,22.0,Anomaly,0,No clear reason identified.
+114.22.116.127,5,3633.4,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+81.29.132.21,1,4142.0,22.0,Anomaly,30,High data transfer per request.
+7814:1572:68cc:dcaf:9465:533c:7fe4:4389,3,3326.3333333333335,22.0,Anomaly,30,High data transfer per request.
+9.103.7.78,7,3195.0,22.0,Anomaly,40,Unusually high request count.
+f4ff:c286:4a3e:2d3c:5f79:e4b:85bc:e98b,1,3906.0,22.0,Anomaly,30,High data transfer per request.
+61ea:33:8635:8107:a7f2:869d:43c:f3,4,3601.5,22.0,Anomaly,40,Unusually high request count.
+17d:7d7e:3467:e68c:cf68:4cda:c1da:b15d,1,4982.0,22.0,Anomaly,30,High data transfer per request.
+a453:bffc:fd0f:8f9c:b16f:f19a:867f:b8b1,1,4859.0,22.0,Anomaly,30,High data transfer per request.
+62fb:afa6:54ad:30fa:9289:57ee:540d:8d00,3,2118.3333333333335,22.0,Anomaly,0,No clear reason identified.
+d206:673a:ff69:2f30:8ba8:ae83:7451:2c19,3,2413.3333333333335,22.0,Anomaly,0,No clear reason identified.
+24.241.178.9,7,3601.714285714286,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+3c36:5f13:da7c:42b0:b33:a89:5315:3609,1,595.0,22.0,Anomaly,0,No clear reason identified.
+154.15.130.67,1,2287.0,22.0,Anomaly,0,No clear reason identified.
+202.125.229.126,1,3964.0,22.0,Anomaly,30,High data transfer per request.
+57.195.68.243,2,1837.0,22.0,Anomaly,0,No clear reason identified.
+ec8c:3908:6a7:de18:81cc:1220:adb3:5652,1,962.0,22.0,Anomaly,0,No clear reason identified.
+9e2e:2718:d42e:2340:9ad7:8f25:bdaf:9534,7,3428.4285714285716,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+c39c:fa59:3d37:bbbd:52db:7fab:55d:24f9,2,2369.0,22.0,Anomaly,0,No clear reason identified.
+131.65.63.238,5,2764.6,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+38.90.38.169,7,2465.0,22.0,Anomaly,40,Unusually high request count.
+9030:10e5:6388:3bc0:bdab:13d4:d531:1546,4,3540.0,22.0,Anomaly,30,High data transfer per request.
+9939:ae21:293a:6f24:569d:b48e:6a74:1db0,5,2988.2,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+9939:ae21:293a:6f24:569d:b48e:6a74:1db0,1,1338.0,22.0,Anomaly,0,No clear reason identified.
+223.44.78.154,6,3317.5,22.0,Anomaly,40,Unusually high request count.
+181.37.150.112,1,1516.0,22.0,Anomaly,0,No clear reason identified.
+8.84.104.172,7,3021.4285714285716,22.0,Anomaly,40,Unusually high request count.
+165.107.232.96,4,2791.75,22.0,Anomaly,40,Unusually high request count.
+43.27.166.105,2,4338.0,22.0,Anomaly,30,High data transfer per request.
+5e90:b303:e78c:8efb:afee:b759:3b04:10f1,1,736.0,22.0,Anomaly,0,No clear reason identified.
+c8c2:c116:b38d:976f:efb:9531:5d49:508b,7,2177.1428571428573,22.0,Anomaly,40,Unusually high request count.
+a671:c56:6647:695e:fbd0:4696:7c39:c050,8,2462.125,22.0,Anomaly,40,Unusually high request count.
+1693:a453:cd15:7e83:e731:a5cf:d8af:bb1,6,2081.1666666666665,22.0,Anomaly,40,Unusually high request count.
+40.213.149.224,1,3772.0,22.0,Anomaly,30,High data transfer per request.
+176.3.230.250,4,2432.5,22.0,Anomaly,40,Unusually high request count.
+2f37:c023:385d:a4ff:70be:20cc:6da7:caf4,5,1120.6,22.0,Anomaly,40,Unusually high request count.
+39e6:fa09:9dda:9aa2:9ec4:5a9d:7184:b0a2,2,3665.0,22.0,Anomaly,30,High data transfer per request.
+370:c9e5:4e17:33fd:8273:c2eb:fb08:be18,1,3978.0,22.0,Anomaly,30,High data transfer per request.
+134.96.239.187,4,3263.75,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+b3fc:e3b9:f794:f600:51a9:d095:1900:451f,7,1363.7142857142858,22.0,Anomaly,40,Unusually high request count.
+6fdf:d639:6692:6cae:f94c:3d7:ecd7:7b18,3,1404.6666666666667,22.0,Anomaly,0,No clear reason identified.
+123.87.205.236,4,1489.0,22.0,Anomaly,40,Unusually high request count.
+165.107.232.96,2,2557.0,22.0,Anomaly,0,No clear reason identified.
+134.108.81.165,5,3690.2,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+178.64.238.222,1,4124.0,22.0,Anomaly,30,High data transfer per request.
+135.98.162.233,7,3205.1428571428573,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+139.86.196.192,1,1328.0,22.0,Anomaly,0,No clear reason identified.
+26.133.35.63,2,2656.5,22.0,Anomaly,0,No clear reason identified.
+186.168.221.180,1,4408.0,22.0,Anomaly,30,High data transfer per request.
+59bc:93c1:f1ba:c918:f11a:61a0:2f81:3da3,1,711.0,22.0,Anomaly,0,No clear reason identified.
+66d4:1c1e:4743:4ef7:12a8:14c1:ed8e:9df1,5,3390.0,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+195.90.196.192,1,1558.0,22.0,Anomaly,0,No clear reason identified.
+5019:3459:3a29:680:e251:86f7:d2e2:dd9b,1,2885.0,22.0,Anomaly,0,No clear reason identified.
+114.161.112.197,7,2569.4285714285716,22.0,Anomaly,40,Unusually high request count.
+180.95.116.205,1,1742.0,22.0,Anomaly,0,No clear reason identified.
+b3b0:840:959e:1567:e2df:3be5:8580:a190,1,4053.0,22.0,Anomaly,30,High data transfer per request.
+140.75.98.66,6,1745.5,22.0,Anomaly,40,Unusually high request count.
+187.146.88.37,1,3922.0,22.0,Anomaly,30,High data transfer per request.
+6b80:d665:493b:a760:665b:fceb:956f:f84c,7,1924.2857142857142,22.0,Anomaly,40,Unusually high request count.
+7b48:2e97:b582:aaa2:b4a0:e2d0:7348:1570,5,1850.6,22.0,Anomaly,40,Unusually high request count.
+92.126.154.181,5,1748.2,22.0,Anomaly,40,Unusually high request count.
+98.133.124.39,1,1387.0,22.0,Anomaly,0,No clear reason identified.
+33.213.12.246,5,2916.4,22.0,Anomaly,40,Unusually high request count.
+6bd5:ad42:c736:f70c:ab11:7913:80df:8621,3,1816.6666666666667,22.0,Anomaly,0,No clear reason identified.
+86.58.244.130,1,3580.0,22.0,Anomaly,30,High data transfer per request.
+86.58.244.130,5,3697.2,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+be53:d25:61b7:6544:cd5d:102b:151e:7738,1,2527.0,22.0,Anomaly,0,No clear reason identified.
+185.60.226.17,1,1273.0,22.0,Anomaly,0,No clear reason identified.
+758a:f36a:9b16:e27:972c:77de:3b46:3cb0,2,2529.5,22.0,Anomaly,0,No clear reason identified.
+da3b:4786:4114:bfdd:ac66:3101:4bb2:425c,5,2705.6,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+217.119.19.158,1,4910.0,22.0,Anomaly,30,High data transfer per request.
+66.174.203.110,5,2740.4,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+96.60.238.123,2,3332.0,22.0,Anomaly,30,High data transfer per request.
+18.71.82.188,5,3196.4,22.0,Anomaly,40,Unusually high request count.
+19d5:cd5c:c5ef:4dc6:5088:e7de:4dec:dead,6,2318.6666666666665,22.0,Anomaly,40,Unusually high request count.
+154.146.60.61,6,3330.1666666666665,22.0,Anomaly,40,Unusually high request count.
+21.219.7.70,5,2597.6,22.0,Anomaly,40,Unusually high request count.
+53f8:aabf:56e3:7230:8f9a:e2a3:dbd8:be64,1,2581.0,22.0,Anomaly,0,No clear reason identified.
+186.74.68.221,5,3392.0,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+114.97.164.108,2,2084.0,22.0,Anomaly,0,No clear reason identified.
+114.97.164.108,1,1161.0,22.0,Anomaly,0,No clear reason identified.
+fc94:bb57:5bfa:4447:eef3:39f1:bab4:5ba5,2,3234.0,22.0,Anomaly,30,High data transfer per request.
+129.250.178.34,8,3859.375,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+182.69.164.217,7,2628.1428571428573,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+651c:5fdb:328d:da81:e016:fc61:298:4b42,8,3510.75,22.0,Anomaly,70,Unusually high request count.; High data transfer per request.
+8475:b23e:d3f9:e336:bab8:f014:7709:ecf1,1,3555.0,22.0,Anomaly,30,High data transfer per request.
+589f:556:8da:cb43:aa17:27b5:b8e0:afb,1,987.0,22.0,Anomaly,0,No clear reason identified.
+165.87.74.18,1,3706.0,22.0,Anomaly,30,High data transfer per request.
+116.254.36.200,5,1960.8,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+168.159.37.159,1,4115.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+31.73.212.3,1,3764.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+26.158.117.152,1,4414.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+35.55.26.168,1,4925.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+d705:a8a9:60a8:939b:9dc4:6621:2b7e:2671,5,3126.4,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+43.130.30.221,1,689.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+a3e3:34a9:b19e:dc47:6f8e:14a6:80dc:9f1,4,4056.25,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+3a8:6e06:39c4:d350:4892:714b:bfe8:e47a,1,946.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+159.93.54.79,3,3730.6666666666665,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+53.254.234.52,5,3016.6,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+3c0:3147:2256:bbbd:5c2e:e006:a8e5:74,2,2678.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+63.118.177.184,5,3255.2,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+60.237.185.56,5,2097.6,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+6.37.210.113,6,2032.5,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+557b:1074:fa5a:f4f7:f9f1:d308:87df:8d90,2,4024.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+161.194.109.104,1,4900.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+8ad9:9642:322b:3015:e116:cc11:718c:5383,1,4859.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+98.170.21.199,1,2176.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+129.250.178.34,1,4313.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+129.250.178.34,6,2242.6666666666665,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+17.115.142.0,1,4622.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+181.99.122.47,6,2255.8333333333335,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+141.148.116.60,1,3851.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+115.123.16.79,4,2163.5,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+5.94.86.54,4,3384.25,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+143.192.219.104,4,4113.25,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+821a:a59b:d30f:9252:ad24:2733:74d5:3483,1,3612.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+949b:25a4:aada:9f54:8138:bacf:97d3:607b,1,835.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+8879:e3ec:e444:a176:67eb:b0da:4590:d95,1,2533.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+74.92.18.110,6,3050.0,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+219.174.86.216,1,798.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+bfed:fff6:1562:92b2:2d04:2dcb:ea8:c1b5,5,2513.2,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+32.168.224.172,6,2710.0,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+68c7:c7e8:9c7e:5cc1:d382:ad3c:587:3c01,1,747.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+98.77.206.103,1,751.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+73.83.126.197,3,1804.3333333333333,23.0,Anomaly,20,Unusual activity outside normal business hours.
+58.53.226.136,6,3075.5,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+9b0:e51a:6340:c724:51be:e0c7:9e12:38d,7,1659.5714285714287,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+cad6:878f:a91e:78d:38bd:30f3:e491:1cc4,6,2496.8333333333335,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+5317:2e93:bae5:4ce7:392:215:967b:4d1f,7,2245.5714285714284,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+ae72:dfef:3680:b22d:3253:3bee:ab:1481,4,2172.0,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+98.182.161.245,7,1799.142857142857,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+76.240.20.120,4,2400.5,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+fe90:641e:5643:a0c0:59f5:f317:f7eb:19db,1,2239.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+eff5:28dd:ea7e:5fe7:200f:d974:5a85:88f5,7,2727.285714285714,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+159.168.200.38,6,3512.0,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+5384:10d3:55d4:873c:b5e3:d14c:b2f3:699c,4,1848.5,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+35.96.80.127,5,1908.2,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+128.3.125.57,1,2666.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+208.150.99.181,7,2539.0,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+74.80.46.5,7,2066.0,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+154.194.118.163,1,4265.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+80.243.10.35,1,2259.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+23.159.246.188,1,1104.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+74ce:b538:5228:d820:b4ee:456c:80cd:8ae4,1,4024.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+154.194.118.163,2,2133.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+6fb:f7a7:3043:3956:a467:ce25:5dce:c2d0,1,2692.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+6fb:f7a7:3043:3956:a467:ce25:5dce:c2d0,1,2356.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+3f65:b857:3d97:f83d:e997:4369:cea4:88d0,5,2614.2,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+71.250.28.106,7,2009.0,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+10.228.210.2,8,2357.125,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+51.224.8.91,1,4999.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+73.88.31.69,7,2701.1428571428573,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+ce64:fd9:fb3f:4258:a4ba:47c8:1012:2356,4,3019.5,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+b6c7:3f27:236f:72d7:59ed:68e5:801:ac1f,7,2828.714285714286,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+8baa:81ca:3975:667e:d232:8a7b:c8ea:aec6,2,2754.5,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+5c31:5a7f:e89d:cce2:388b:4762:8f49:b8a4,1,4035.0,23.0,Anomaly,50,High data transfer per request.; Unusual activity outside normal business hours.
+172.73.227.140,6,2640.8333333333335,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+58d5:d778:3798:9311:ce00:9a6f:9f0a:3084,2,1866.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+46.36.198.130,1,1438.0,23.0,Anomaly,20,Unusual activity outside normal business hours.
+81.29.132.21,8,2917.125,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+6d5a:cda2:1304:34c5:5d59:b80a:1ed:291e,8,1888.0,23.0,Anomaly,60,Unusually high request count.; Unusual activity outside normal business hours.
+2adc:bca6:9943:ddda:3f8e:c023:4bc1:9dc4,8,2828.375,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
+4a76:ad87:7c5d:92b3:8a31:7a97:41e5:d859,7,2757.8571428571427,23.0,Anomaly,90,Unusually high request count.; High data transfer per request.; Unusual activity outside normal business hours.
